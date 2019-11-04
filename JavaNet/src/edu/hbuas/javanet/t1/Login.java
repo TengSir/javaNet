@@ -18,9 +18,6 @@ public class Login  extends Application{
 	public void start(Stage primaryStage) throws Exception {
 		Group g=new Group();
 		Scene  s=new Scene(g,300,400,Color.GRAY);
-		
-		javafx.scene.control.Button b=new Button("test");
-		g.getChildren().add(b);
 		primaryStage.setTitle("Login");
 		primaryStage.setScene(s);
 		primaryStage.show();
