@@ -1,4 +1,4 @@
-package edu.hbuas.javanet.t1;
+package edu.hbuas.javanet.t2;
 
 
 import javafx.application.Application;

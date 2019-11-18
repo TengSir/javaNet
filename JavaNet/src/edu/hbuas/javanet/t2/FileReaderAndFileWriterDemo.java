@@ -1,4 +1,4 @@
-package edu.hbuas.javanet.t1;
+package edu.hbuas.javanet.t2;
 
 import java.io.FileReader;
 import java.io.FileWriter;
