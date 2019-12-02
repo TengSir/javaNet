@@ -13,7 +13,7 @@ public class Server {
 	
 	public static void main(String[] args)  throws  Exception{
 		//172.19.4.45
-		ServerSocket  server=new ServerSocket(8000);
+		ServerSocket  server=new ServerSocket(8888);
 		System.out.println("服务器启动成功");
 	  while(true) {
 				Socket  client=server.accept();//监听并接受一个客户端连接（阻塞方法）
@@ -62,6 +62,4 @@ public class Server {
 				}.start();
 			}
 	}
-	
-
 }
