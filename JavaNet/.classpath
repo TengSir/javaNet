@@ -5,12 +5,22 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src">
+	<classpathentry kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/jdk1.8.0/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="libs/activation.jar"/>
+	<classpathentry kind="lib" path="libs/jaf-1_0_2-upd2.zip"/>
+	<classpathentry kind="lib" path="libs/javamail-1_4_1.zip"/>
+	<classpathentry kind="lib" path="libs/javax.mail.jar"/>
+	<classpathentry kind="lib" path="libs/commons-email-1.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
